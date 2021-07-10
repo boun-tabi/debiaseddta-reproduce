@@ -1,0 +1,12 @@
+{
+    "batch_size": 128,
+    "optimizer": "adam",
+    "learning_rate": 0.001,
+    "num_filters": 32,
+    "smi_filter_len": 3,
+    "prot_filter_len": 4,
+    "embedding_dim": 128,
+    "max_smi_len": 100,
+    "max_prot_len": 1000,
+    "n_epochs": 200
+}
