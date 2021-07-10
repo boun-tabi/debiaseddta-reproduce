@@ -1,0 +1,25 @@
+{
+    "max_smi_len": 100,
+    "max_prot_len": 1000,
+    "chem_vocab_size": "NA",
+    "prot_vocab_size": "NA",
+    "embedding_dim": 0,
+    "num_filters": 0,
+    "smi_filter_len": 0,
+    "prot_filter_len": 0,
+    "optimizer": "adam",
+    "learning_rate": 0.0001,
+    "batch_size": 128,
+    "n_epochs": 200,
+    "clip_value": null,
+    "lm_ligand_embed_size": 768,
+    "lm_protein_embed_size": 1024,
+    "history_current": {
+        "loss": [
+            9.2452006356325e-05
+        ],
+        "mean_squared_error": [
+            0.018291981890797615
+        ]
+    }
+}
