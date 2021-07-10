@@ -1,0 +1,21 @@
+{
+    "search_params": [
+                    {
+                        "num_filters": [16, 32],
+                        "smi_filter_len": [3, 4],
+                        "prot_filter_len": [4, 6],
+                        "embedding_dim": [128]
+                        },
+                        {
+                        "batch_size": [128, 256],
+                        "optimizer": ["adam"],
+                        "learning_rate": [0.001]
+                        }
+                    ],
+
+    "fixed_params": {
+                    "max_smi_len": 100,
+                    "max_prot_len": 1000,
+                    "n_epochs": 200
+                    }
+}

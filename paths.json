@@ -1,0 +1,35 @@
+{
+    "chembl27_raw": "./data/corpora/chembl27_chemreps.txt",
+    "chembl27_smi": "./data/corpora/chembl27.smi",
+    "chembl27_smi_encoded": "./data/corpora/chembl27.smi.enc",
+    "chembl27_vocab": "./data/corpora/chembl27.vocab",
+    "chembl27_brics": "./data/corpora/chembl27.brics",
+    "chembl27_brics_lm": "./data/corpora/chembl27.brics.lm",
+    "chembl27_selfies_vocab": "./data/corpora/chembl27_selfies.vocab",
+    "uniprot_raw": "./data/corpora/uniprot-reviewed_yes.fasta",
+    "uniprot_aa": "./data/corpora/uniprot-reviewed_yes.aa",
+    "natural_lang": "./data/natural_langs/",
+
+    "chem_vocab": "./data/vocabs/chemical/",
+    "prot_vocab": "./data/vocabs/protein/",
+    "natural_lang_vocab": "./data/vocabs/natural_langs/",
+    "models": "./models/",
+
+    "bdb": {
+        "folds": "./data/bdb/setups/",
+        "old_setups": "./data/bdb/leave_out/",
+        "ligands": "./data/bdb/ligands.json",
+        "proteins": "./data/bdb/proteins.json",
+        "pfams": "./data/bdb/pfams.csv",
+        "sw_sim_matrix": "./data/bdb/sw_sim_matrix.csv"
+    },
+
+    "kiba": {
+        "folds": "./data/kiba/setups/",
+        "old_setups": "./data/kiba/leave_out/",
+        "ligands": "./data/kiba/ligands.json",
+        "proteins": "./data/kiba/proteins.json",
+        "pfams": "./data/kiba/pfams.csv",
+        "sw_sim_matrix": "./data/kiba/sw_sim_matrix.csv"
+    }
+}
